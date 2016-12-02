@@ -1,0 +1,10 @@
+
+Ubuntu:
+   sudo apt-get install vim terminator xmonad dmenu htop nethogs gedit git
+   #optional virtualbox openjdk-9-jdk
+
+dmenu <--- trayer xmonad thingy
+
+arch:
+   TODO
+

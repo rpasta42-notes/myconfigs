@@ -3,6 +3,12 @@ Ubuntu:
    sudo apt-get install vim terminator xmonad dmenu htop nethogs gedit git
    #optional virtualbox openjdk-9-jdk
 
+vim:
+   NERDTree
+
+server:
+   tmux
+
 dmenu <--- trayer xmonad thingy
 
 arch:

@@ -1,4 +1,40 @@
 
-#Not the whole thing just good snippets so "cat DOTbashrc >>~/.bashrc"
-set -o vi
-export EDITOR=vi
+execute pathogen#infect()
+
+"save folds automatically
+au BufWinLeave ?* mkview
+au BufWinEnter ?* silent loadview
+
+":set ruler "show line and column number
+syntax on
+
+autocmd BufWritePre *.c*.py *.cpp *.html *.js :%s/\s\+$//e
+autocmd FileType c,cpp,py,java,scala,php,hs,scm,txt autocmd BufWritePre <buffer> :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
+
+":help smartindent was replaced by cindent :help C-indentinle thag
+":help retab
+":help auto-settings
+
+"got replaced by C-indent
+""smartindent
+"set tabstop=3 "use 4 space to show tab
+"set shiftwidth=3 "number of spaces used for autoindent
+"set softtabstop=0
+"set smarttab
+"set expandtab "enter space when tab is pressed
+"retab
+
+"for tab as spaces
+set tabstop=6 softtabstop=0 expandtab shiftwidth=3 smarttab
+"for tab appears as space
+"set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
+
+
+":filetype plugin on
+set clipboard=unnamedplus
+
+"using universal ctags
+"let g:syntastic_cpp_compiler_options = '-std=c++11'
+let g:syntastic_cpp_compiler_options = '-std=c++14'
+

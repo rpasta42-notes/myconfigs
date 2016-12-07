@@ -1,3 +1,5 @@
+
+"Not the whole thing just good snippets so "cat DOTbashrc >>~/.bashrc"
 set -o vi
 export EDITOR=vi
 

@@ -1,15 +1,20 @@
 
 Ubuntu:
-   sudo apt-get install vim terminator xmonad dmenu htop nethogs gedit git
-   #optional virtualbox openjdk-9-jdk
+
+   all machines
+      sudo apt-get install vim git htop
+   desktop
+      sudo apt-get install terminator xmonad dmenu nethogs gedit git
+      #dmenu <--- trayer xmonad thingy
+      misc optional
+         virtualbox openjdk-9-jdk
+
+   server
+      sudo apt install tmux
 
 vim:
    NERDTree
 
-server:
-   tmux
-
-dmenu <--- trayer xmonad thingy
 
 arch:
    TODO

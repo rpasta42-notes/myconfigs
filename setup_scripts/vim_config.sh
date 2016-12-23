@@ -2,7 +2,7 @@
 
 
 rm -rf ~/.vim/autoload
-sudo rm -rf ~/.vim/bundle/nerdtree/
+rm -rf ~/.vim/bundle/nerdtree/
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim

@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "#======================rpasta42-personal/myconfig" >>~/.bashrc
+#adduser kkostya
+#usermod -aG sudo kkostya
+#ssh-keygen -t rsa -b 4096 -C "kostelkow@gmail.com"
+
 
 backdir="backup/ver`python setup_scripts/get_counter.py`/"
 mkdir -p $backdir
@@ -9,8 +12,8 @@ cp ~/.pythonrc $backdir/DOTpythonrc.OLD
 cp ~/.inputrc $backdir/DOTinputrc.OLD
 cp ~/.vimrc $backdir/DOTvimrc.OLD
 
-#cp conf_files/DOTbashrc ~/.bashrc
-cat conf_files/DOTbashrc >>~/.bashrc
+mv ~/.bashrc /tmp/DOTbashrc.TMP
+cat conf_files/DOTbashrc.prepend /tmp/DOTbashrc.TMP conf_files/DOTbashrc >~/.bashrc
 
 #cp conf_files/DOTpythonrc ~/.pythonrc
 bash setup_scripts/py_config.sh
@@ -18,7 +21,7 @@ bash setup_scripts/py_config.sh
 #cp conf_files/DOTvimrc ~/.vimrc
 bash setup_scripts/vim_config.sh
 
+echo "#======================end rpasta42-personal/myconfig" >>~/.bashrc
 
 cp conf_files/DOTinputrc ~/.inputrc
-echo "#======================end rpasta42-personal/myconfig" >>~/.bashrc
 

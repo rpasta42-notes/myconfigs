@@ -1,0 +1,6 @@
+#======================rpasta42-personal/myconfig
+color_prompt=yes
+set -o vi
+export EDITOR=vim
+#======================end rpasta42-personal/myconfig
+

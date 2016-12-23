@@ -1,8 +1,18 @@
 #!/bin/bash
 
+#####################
+#===before install
+
 #adduser kkostya
 #usermod -aG sudo kkostya
 #ssh-keygen -t rsa -b 4096 -C "kostelkow@gmail.com"
+
+#===install packages from packages_install
+
+#mkdir -p ~/orgs/{Kosandr,rpasta42-personal/{mynotes,mysnnipets/myutils}}
+#mkdir -p ~/orgs/{Kosandr,rpasta42-personal}
+#cd rpasta42-personal; git clone git@github.com:rpasta42-personal/{mynotes.git,mysnippets.git,myconfigs.git,myutils}
+#####################
 
 
 backdir="backup/ver`python setup_scripts/get_counter.py`/"

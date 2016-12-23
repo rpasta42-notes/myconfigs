@@ -11,7 +11,8 @@
 
 #mkdir -p ~/orgs/{Kosandr,rpasta42-personal/{mynotes,mysnnipets/myutils}}
 #mkdir -p ~/orgs/{Kosandr,rpasta42-personal}
-#cd rpasta42-personal; git clone git@github.com:rpasta42-personal/{mynotes.git,mysnippets.git,myconfigs.git,myutils}
+#cd ~/orgs/rpasta42-personal; git clone git@github.com:rpasta42-personal/{mynotes.git,mysnippets.git,myconfigs.git,myutils}
+#cd ~/orgs/Kosandr; git clone git@github.com:Kosandr/magic-pyjs-orm.git
 #####################
 
 

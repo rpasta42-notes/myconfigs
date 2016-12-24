@@ -15,6 +15,7 @@
 #####################
 
 
+mkdir -p backup
 backdir="backup/ver`python setup_scripts/get_counter.py`/"
 mkdir -p $backdir
 cp ~/.bashrc $backdir/DOTbashrc.OLD

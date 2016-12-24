@@ -13,11 +13,12 @@ def read_file(filePath, nBytes=None, binary=False, createIfNeeded=False):
       if binary:
          errors = None # FIXISSUE: remove encoding error replacement on binary data
          flags = 'rb'
-      with open(filePath, flags) as f:
-         if nBytes:
-            return f.read(nBytes)
-         else:
-            return f.read()
+      try:
+         with open(filePath, flags) as f:
+            if nBytes:
+               return f.read(nBytes)
+            else:
+               return f.read()
       except Exception as e:
          return None
    elif filePath and createIfNeeded:

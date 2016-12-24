@@ -2,16 +2,17 @@
 Ubuntu:
 
    all machines
-      sudo apt-get install vim git htop
+      sudo apt-get install vim git htop python3 python3-pip
    desktop
       sudo apt-get install terminator xmonad dmenu nethogs gedit git
       #dmenu <--- trayer xmonad thingy
-      misc optional
+      misc optional desktop
          virtualbox openjdk-9-jdk
 
    server
       sudo apt install tmux
-
+      misc optional server
+         openjdk-9-jdk
 vim:
    NERDTree
 

@@ -10,7 +10,7 @@
 #===install packages from packages_install
 
 #mkdir -p ~/orgs/{Kosandr,rpasta42-personal}
-#bash -c "`echo "git clone git@github.com:rpasta42-personal/"{mynotes.git,mysnippets.git,myconfigs.git,myutils}\;`"
+#bash -c "`echo "cd ~/orgs/rpasta42-personal; git clone git@github.com:rpasta42-personal/"{mynotes.git,mysnippets.git,myconfigs.git,myutils}\;`"
 #cd ~/orgs/Kosandr; git clone git@github.com:Kosandr/magic-pyjs-orm.git
 #####################
 

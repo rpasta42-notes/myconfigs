@@ -18,6 +18,8 @@ def read_file(filePath, nBytes=None, binary=False, createIfNeeded=False):
             return f.read(nBytes)
          else:
             return f.read()
+      except Exception as e:
+         return None
    elif filePath and createIfNeeded:
       assert not nBytes
       file(filePath, 'w').close()

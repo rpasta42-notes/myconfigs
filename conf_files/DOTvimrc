@@ -36,6 +36,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 ":help smartindent was replaced by cindent :help C-indentinle thag
 ":help retab
 ":help auto-settings
+
+set tw=3
 set autoindent
 
 "got replaced by C-indent

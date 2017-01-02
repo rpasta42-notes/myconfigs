@@ -18,6 +18,11 @@ syntax on
 
 
 
+"auto tab in vim
+set tw=50
+set autoindent
+
+
 """""""""""""""""""""""""""""""old config
 
 execute pathogen#infect()
@@ -37,8 +42,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 ":help retab
 ":help auto-settings
 
-set tw=3
-set autoindent
 
 "got replaced by C-indent
 ""smartindent

@@ -2,7 +2,7 @@
 Ubuntu:
 
    all machines
-      sudo apt-get install vim git htop python3 python3-pip sshfs
+      sudo apt-get install vim git htop python3 python3-pip sshfs curlA
    desktop
       sudo apt-get install terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick
       #dmenu <--- trayer xmonad thingy

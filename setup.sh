@@ -14,6 +14,7 @@
 #cd ~/orgs/rpasta42-personal/myutils; ./setup.sh
 #bash -c "`echo "cd ~/orgs/Kosandr;           git clone git@github.com:Kosandr/"{magic-pyjs-orm.git,utiltools.git}\;`"
 #cd ~/orgs/Kosandr/utiltools; make build; make install
+#cd ~/rpasta42-personal/myconfigs; ./setup.sh
 #####################
 
 

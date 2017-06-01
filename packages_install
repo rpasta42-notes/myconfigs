@@ -4,7 +4,7 @@ Ubuntu:
    all machines
       sudo apt-get install vim git htop python3 python3-pip sshfs curl
    desktop
-      sudo apt-get install terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick gimp 
+      sudo apt-get install terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick gimp
       #dmenu <--- trayer xmonad thingy
       misc optional desktop
          virtualbox openjdk-9-jdk
@@ -14,7 +14,7 @@ Ubuntu:
       misc optional server
          openjdk-9-jdk
    server linode
-      sudo apt install nginx 
+      sudo apt install nginx #nginx-extras for perl
 
 vim:
    NERDTree
@@ -26,4 +26,4 @@ arch:
 pip3 install --upgrade pip
 sudo pip3 install #upgrade pip
 sudo pip3 install pyinotify #for pywatch
-
+sudo pip3 install sh #for vivie

@@ -23,6 +23,7 @@ vim:
 arch:
    TODO
 
+pip3 install --upgrade pip
 sudo pip3 install #upgrade pip
 sudo pip3 install pyinotify #for pywatch
 

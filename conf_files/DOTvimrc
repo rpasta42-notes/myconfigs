@@ -19,7 +19,7 @@ syntax on
 autocmd VimEnter * set autoindent
 
 "auto tab in vim
-set tw=50
+set tw=150
 set autoindent
 
 

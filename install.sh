@@ -6,11 +6,11 @@ GIT_DIR=$GIT_DIR_HTTPS
 
 
 
-ALL_PKGS=vim git htop python3 python3-pip sshfs curl dstat
-DEV_PKGS=tmux nginx
+ALL_PKGS="vim git htop python3 python3-pip sshfs curl dstat nethogs"
+DEV_PKGS="tmux nginx"
 
 #PC Desktop
-PCD_PKGS=terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick gimp vlc thunar lm-sensors
+PCD_PKGS="terminator xmonad dmenu gedit scrot clusterssh gpick gimp vlc thunar lm-sensors"
 
 sudo apt update
 sudo apt -y install $ALL_PKGS

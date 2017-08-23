@@ -4,6 +4,7 @@ GIT_DIR_KEY=git@github.com:
 GIT_DIR_HTTPS=https://github.com/
 GIT_DIR=$GIT_DIR_HTTPS
 
+sudo2=''
 
 
 ALL_PKGS="vim git htop python3 python3-pip sshfs curl dstat nethogs"
@@ -12,15 +13,15 @@ DEV_PKGS="tmux nginx"
 #PC Desktop
 PCD_PKGS="terminator xmonad dmenu gedit scrot clusterssh gpick gimp vlc thunar lm-sensors"
 
-sudo apt update
-sudo apt -y install $ALL_PKGS
-#sudo apt -y install $PCD_PKGS
-sudo apt -y install $DEV_PKGS
+$sudo2 apt update
+$sudo2 apt -y install $ALL_PKGS
+#$sudo2 apt -y install $PCD_PKGS
+$sudo2 apt -y install $DEV_PKGS
 
 #pip3 install --upgrade pip
-sudo pip3 install
-sudo pip3 install pyinotify #for pywatch
-sudo pip3 install sh #for vivie
+$sudo2 pip3 install
+$sudo2 pip3 install pyinotify #for pywatch
+$sudo2 pip3 install sh #for vivie
 
 
 

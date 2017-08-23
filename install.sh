@@ -13,9 +13,9 @@ DEV_PKGS=tmux nginx
 PCD_PKGS=terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick gimp vlc thunar lm-sensors
 
 sudo apt update
-sudo apt install $ALL_PKGS
-#sudo apt install $PCD_PKGS
-sudo apt install $DEV_PKGS
+sudo apt -y install $ALL_PKGS
+#sudo apt -y install $PCD_PKGS
+sudo apt -y install $DEV_PKGS
 
 #pip3 install --upgrade pip
 sudo pip3 install

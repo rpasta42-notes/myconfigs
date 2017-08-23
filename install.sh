@@ -4,7 +4,10 @@ GIT_DIR_KEY=git@github.com:
 GIT_DIR_HTTPS=https://github.com/
 GIT_DIR=$GIT_DIR_HTTPS
 
-sudo2=''
+apt update
+apt install sudo
+
+sudo2=sudo
 
 
 ALL_PKGS="vim git htop python3 python3-pip sshfs curl dstat nethogs"

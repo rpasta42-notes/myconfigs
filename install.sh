@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GIT_DIR_KEY=git@github.com:
-GIT_DIR_HTTPS=https://github.com/
+GIT_DIR_HTTPS=https://github.com
 GIT_DIR=$GIT_DIR_HTTPS
 
 apt update

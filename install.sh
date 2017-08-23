@@ -21,6 +21,9 @@ $sudo2 apt -y install $ALL_PKGS
 #$sudo2 apt -y install $PCD_PKGS
 $sudo2 apt -y install $DEV_PKGS
 
+sudo pip3 install --upgrade pip
+sudo pip install --upgrade pip
+
 #pip3 install --upgrade pip
 $sudo2 pip3 install
 $sudo2 pip3 install pyinotify #for pywatch

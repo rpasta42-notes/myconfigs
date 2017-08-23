@@ -30,7 +30,3 @@ cd ~/orgs/rpasta42-personal/myutils; ./setup.sh
 bash -c "`echo "cd ~/orgs/Kosandr;           git clone $GIT_DIR/Kosandr/"{magic-pyjs-orm.git,utiltools.git,base-flask-skeleton.git}\;`"
 cd ~/orgs/Kosandr/utiltools; make build; make install
 cd ~/rpasta42-personal/myconfigs; ./setup.sh
-
-
-
-./setup.sh

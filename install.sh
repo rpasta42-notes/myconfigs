@@ -28,7 +28,7 @@ sudo pip install --upgrade pip
 $sudo2 pip3 install
 $sudo2 pip3 install pyinotify #for pywatch
 $sudo2 pip3 install sh #for vivie
-
+$sudo2 pip3 install pexpect #for base-flask
 
 
 mkdir -p ~/orgs/{Kosandr,rpasta42-personal}

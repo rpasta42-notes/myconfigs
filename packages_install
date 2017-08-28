@@ -2,9 +2,9 @@
 Ubuntu:
 
    all machines
-      sudo apt-get install vim git htop python3 python3-pip sshfs curl
+      sudo apt-get install vim git htop python3 python3-pip sshfs curl dstat
    desktop
-      sudo apt-get install terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick gimp
+      sudo apt-get install terminator xmonad dmenu nethogs gedit git scrot clusterssh gpick gimp vlc thunar lm-sensors
       #dmenu <--- trayer xmonad thingy
       misc optional desktop
          virtualbox openjdk-9-jdk

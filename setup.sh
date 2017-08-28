@@ -25,7 +25,6 @@ cp ~/.bashrc $backdir/DOTbashrc.OLD
 cp ~/.pythonrc $backdir/DOTpythonrc.OLD
 cp ~/.inputrc $backdir/DOTinputrc.OLD
 cp ~/.vimrc $backdir/DOTvimrc.OLD
-
 mv ~/.bashrc /tmp/DOTbashrc.TMP
 cat conf_files/DOTbashrc.prepend /tmp/DOTbashrc.TMP conf_files/DOTbashrc >~/.bashrc
 
@@ -38,4 +37,8 @@ bash setup_scripts/vim_config.sh
 echo "#======================end rpasta42-personal/myconfig" >>~/.bashrc
 
 cp conf_files/DOTinputrc ~/.inputrc
+
+cp conf_files/DOTpystartup ~/.pystartup
+
+
 

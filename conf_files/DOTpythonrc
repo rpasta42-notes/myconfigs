@@ -7,3 +7,9 @@ except ImportError:
 else:
     import rlcompleter
 readline.parse_and_bind("tab: complete")
+
+import imp
+imp.reload(imp)
+
+import sh
+from utiltools import shellutils as shutil

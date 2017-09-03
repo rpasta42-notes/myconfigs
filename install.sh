@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#wget https://raw.githubusercontent.com/rpasta42-personal/myconfigs/master/install.sh; chmod u+x install.sh; ./install.sh
+
 GIT_DIR_KEY=git@github.com:
 GIT_DIR_HTTPS=https://github.com
 GIT_DIR=$GIT_DIR_HTTPS

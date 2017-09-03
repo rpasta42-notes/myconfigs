@@ -10,7 +10,7 @@ apt install sudo
 sudo2=sudo
 
 
-ALL_PKGS="vim git htop python3 python3-pip sshfs curl dstat nethogs lsof"
+ALL_PKGS="vim git htop python3 python3-pip sshfs curl dstat nethogs lsof rsync"
 DEV_PKGS="tmux nginx"
 
 #PC Desktop

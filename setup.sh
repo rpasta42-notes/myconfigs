@@ -40,5 +40,7 @@ cp conf_files/DOTinputrc ~/.inputrc
 
 cp conf_files/DOTpystartup ~/.pystartup
 
+mkdir -p ~/.vim/after/syntax
+cp conf_files/json.vim ~/.vim/after/syntax
 
 
